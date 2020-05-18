@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pillsbury Weather Station</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  		<link href="{{url_for('static', filename='css/main.css')}}" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class = "navigation" id = "header">
+			<img class = "headerimg" src="/static/img/weather.png">
+			<h1 class = "title">The Weather Station on Pillsbury</h1>
+		</div>
+
+		<table class  = "table1">
+			<thead>
+				<tr>
+					<th>Temperature</th>
+					<th>Humidity</t>
+					<th>Sun Intensity</th>
+					<th>Pressure</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>72°F</td>
+					<td>85%</td>
+					<td>1200 mBar</td>
+					<td>4.88 Volts</td>
+				</tr>
+		</table>
+		<table class = "table2">
+			<tr><th>Average Temperature</th><td>72 °F</td></tr>
+			<tr><th>Average Pressure</th><td>1200 mBar</td></tr>
+			<tr><th>Average Humidity</th><td>45 %</td></tr>
+
+		</table>
+	</body>
+
+</html>	
